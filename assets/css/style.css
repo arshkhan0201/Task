@@ -2,6 +2,15 @@
 {
 	margin: 0px;
 	padding: 0px;
+	font-family: Inter;
+}
+@font-face {
+	font-family: Inter;
+	src: url(../fonts/Inter.ttf);
+}
+@font-face {
+	font-family: Reemkufi;
+	src: url(../fonts/ReemKufiInk.ttf);
 }
 header 
 {
@@ -11,6 +20,10 @@ header
 {
 	color: white !important;
 	margin-right: 20px!important;
+}
+.navbar
+{
+	text-align: right;
 }
 .navbar-brand img 
 {
@@ -63,6 +76,11 @@ header
 {
 	color: rgba(255, 214, 0, 1.0);
 	font-weight: 600;
+}
+.text-para-2
+{
+	font-family: Reemkufi;
+	color: rgba(163, 163, 163, 1);
 }
 .btn1 
 {
